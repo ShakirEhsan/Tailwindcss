@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <link href="styles.css" rel="stylesheet">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+        body, html {
+            width: 100%;
+            overflow-x: hidden;
+        }
+    </style>
+</head>
+<body class="bg-gray-100 text-gray-900">
+    <!-- Navbar -->
+    <nav class="bg-white shadow-md fixed top-0 w-full z-50">
+        <div class="container mx-auto px-4 py-2 flex justify-between items-center">
+            <div class="flex items-center">
+                <img src="images/Shakir.jpg" alt="Logo" class="w-10 h-10 mr-2">
+                <span class="text-xl font-bold">My Portfolio</span>
+            </div>
+            <div>
+                <a href="#home" class="px-4 py-2 text-gray-700 hover:text-gray-900">Home</a>
+                <a href="#about" class="px-4 py-2 text-gray-700 hover:text-gray-900">About</a>
+                <a href="#projects" class="px-4 py-2 text-gray-700 hover:text-gray-900">Projects</a>
+                <a href="#contact" class="px-4 py-2 text-gray-700 hover:text-gray-900">Contact</a>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Home Section -->
+    <section id="home" class="min-h-screen flex items-center justify-center bg-cover bg-center" style="background-image: url('images/portfolio.jpg');">
+        <div class="text-center text-white">
+            <h1 class="text-5xl font-bold">Hello, I'm Shakir Ehsan</h1>
+            <p class="mt-4 text-lg">A Full Stack Developer</p>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="mt-8 py-16 bg-white">
+        <div class="container mx-auto px-4">
+            <h2 class="text-3xl font-bold text-center">About Me</h2>
+            <p class="mt-4 text-center text-gray-600">My name is <b class="text-blue-700">Shakir Ehsan</b>, and I am currently a third-semester student at COMSATS University. I have a keen interest in software development, specializing as a full stack developer. My primary focus has been on the frontend, where I have undergone extensive training to master the skills required for creating user-friendly and visually appealing web <br> Originally from the picturesque region of <b class="text-blue-700">Gilgit-Baltistan</b> , I am passionate about combining my technical expertise with my cultural background to develop innovative solutions. My journey in the world of coding and development has been both challenging and rewarding, and I am eager to continue learning and growing in this dynamic field.</p>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="py-16 bg-gray-100">
+        <div class="container mx-auto px-4">
+            <h2 class="text-3xl font-bold text-center">Projects</h2>
+            <div class="mt-8 grid grid-cols-1 lg:grid-cols-3 gap-8">
+                <!-- Project Card -->
+                 <!-- card-1 -->
+                <div class="bg-white shadow-lg rounded-lg overflow-hidden">
+                    <img src="images/seeds.png" alt="Project Image" class="w-full h-48 bg-cover bg-center">
+                    <div class="p-4">
+                        <h3 class="text-xl font-bold">Seedswild</h3>
+                        <p class="mt-2 text-gray-600">The website is called Seedswild, a SaaS-based system integrated with AI. This site is developed using Django and was created by <a href="https://exarth.com/" class="text-cyan-300">Exarth</a>.</p>
+                        <a href="https://seedswild.com/" class="mt-4 inline-block bg-blue-500 text-white px-4 py-2 rounded">View Project</a>
+                    </div>
+                </div>
+                
+                  <!-- card-2  -->
+                <div class="bg-white shadow-lg rounded-lg overflow-hidden">
+                    <img src="images/seeds.png" alt="Project Image" class="w-full h-48 bg-cover bg-center">
+                    <div class="p-4">
+                        <h3 class="text-xl font-bold">Seedswild</h3>
+                        <p class="mt-2 text-gray-600">The website is called Seedswild, a SaaS-based system integrated with AI. This site is developed using Django and was created by <a href="#" class="text-cyan-300">Exarth</a>.</p>
+                        <a href="https://seedswild.com/" class="mt-4 inline-block bg-blue-500 text-white px-4 py-2 rounded">View Project</a>
+                    </div>
+                </div>
+
+                <!-- Add more project cards as needed -->
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="py-16 bg-white">
+        <div class="container mx-auto px-4">
+            <h2 class="text-3xl font-bold text-center">Contact Me</h2>
+            <form class="mt-8 max-w-lg mx-auto">
+                <div class="mb-4">
+                    <label for="name" class="block text-gray-700">Name</label>
+                    <input type="text" id="name" class="w-full px-4 py-2 border rounded-md focus:outline-none focus:border-blue-500">
+                </div>
+                <div class="mb-4">
+                    <label for="email" class="block text-gray-700">Email</label>
+                    <input type="email" id="email" class="w-full px-4 py-2 border rounded-md focus:outline-none focus:border-blue-500">
+                </div>
+                <div class="mb-4">
+                    <label for="message" class="block text-gray-700">Message</label>
+                    <textarea id="message" class="w-full px-4 py-2 border rounded-md focus:outline-none focus:border-blue-500"></textarea>
+                </div>
+                <button type="submit" class="w-full bg-blue-500 text-white px-4 py-2 rounded-md">Send Message</button>
+            </form>
+        </div>
+    </section>
+
+
+    <!-- chatbot -->
+    <script defer src="https://app.fastbots.ai/embed.js" data-bot-id="cly28z2jl0kcdr9bbo9rtuwj5"></script>
+    <!-- Footer -->
+    
+    <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Footer Example</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+
+
+    <!-- Footer -->
+    
+    <footer class="flex flex-row flex-wrap items-center justify-center w-full py-6 text-center px-4 mx-4">
+        <p class="block font-sans text-base antialiased font-normal leading-relaxed text-blue-gray-900">
+            © 2024 <a href="https://www.linkedin.com/in/shakir-ehsan-171757307/" class="hover:text-blue-500">Shakir Ehsan</a>
+        </p>
+        <ul class="flex flex-wrap items-center gap-y-2 gap-x-8">
+            <li>
+                <a href="#about" class="block font-sans text-base antialiased font-normal leading-relaxed transition-colors text-blue-gray-900 hover:text-blue-500 focus:text-blue-500 mx-8">
+                    About Me
+                </a>
+            </li>
+            <li>
+                <a href="#contact" class="block font-sans text-base antialiased font-normal leading-relaxed transition-colors text-blue-gray-900 hover:text-blue-500 focus:text-blue-500">
+                    Contact Us
+                </a>
+            </li>
+        </ul>
+    </footer>
+    
+</body>
+</html>
